@@ -6,19 +6,10 @@
 }
 
 .image-captions-caption {
-    margin: -5px 0 0 0;
-    padding: 3px 5px;
-    text-align: center;
-    display: table-caption; /* To allow for correct caption text wrapping */
-    caption-side: bottom;
-}
-
-.theme-dark .image-captions-figure,
-.theme-dark .image-captions-caption {
-    background: #303030;
-}
-
-.theme-light .image-captions-figure,
-.theme-light .image-captions-caption {
-    background: #ebebeb;
+	display: table-caption;
+	caption-side: bottom;
+	margin: 0.2rem 1rem 1rem 1rem;
+    font-size: 90%;
+    line-height: 1.4;
+    color: var(--text-faint);
 }
